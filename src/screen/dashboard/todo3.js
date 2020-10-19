@@ -45,7 +45,7 @@ export default class Login extends Component {
       task: '',
       desc: '',
       is_done: 0,
-      token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9yZXN0ZnVsLWFwaS1sYXJhdmVsLTcuaGVyb2t1YXBwLmNvbVwvYXBpXC9sb2dpbiIsImlhdCI6MTYwMjkyMzI0NiwiZXhwIjoxNjAyOTI2ODQ2LCJuYmYiOjE2MDI5MjMyNDYsImp0aSI6Im9ra3F3TDh5N3EySEtYSloiLCJzdWIiOjMsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.fH_e8ayGaSTE5Atbi4B40FgRxX710GL9Bk__2VQzj0I',
+      token: '',
     };
   }
 
@@ -55,7 +55,7 @@ export default class Login extends Component {
       method: 'GET', //Request Type
       headers: {
         //Header Defination
-        Authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9yZXN0ZnVsLWFwaS1sYXJhdmVsLTcuaGVyb2t1YXBwLmNvbVwvYXBpXC9sb2dpbiIsImlhdCI6MTYwMjkyMzI0NiwiZXhwIjoxNjAyOTI2ODQ2LCJuYmYiOjE2MDI5MjMyNDYsImp0aSI6Im9ra3F3TDh5N3EySEtYSloiLCJzdWIiOjMsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.fH_e8ayGaSTE5Atbi4B40FgRxX710GL9Bk__2VQzj0I',
+        Authorization: 'Bearer Your Token',
         'Content-Type': 'application/json',
       },
     })
